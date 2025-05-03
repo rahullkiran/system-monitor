@@ -3,10 +3,10 @@
 A lightweight tool that monitors real-time system resources (CPU, memory, disk usage) and sends an alert if user-defined thresholds are exceeded. Built using ReactJS(frontend) and python with FastAPI(backend).
 
 🛠️
-COMPONENTS: TECH USED:
-Frontend ReactJS, Recharts, CSS
-Backend FastAPI, psutil
-Others JSON for config/history
+COMPONENTS & TECH USED:
+Frontend -> ReactJS, Recharts, CSS
+Backend -> FastAPI, psutil
+Others -> JSON for config/history
 
 AI Tools Used:
 ChatGPT: Used for prototyping, debugging, frontend/backend enhancements, file structure
