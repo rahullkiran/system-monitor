@@ -1,5 +1,5 @@
 {
-    "cpu": 30,
-    "memory": 25,
-    "disk": 10
+    "cpu": 10,
+    "memory": 20,
+    "disk": 25
 }
