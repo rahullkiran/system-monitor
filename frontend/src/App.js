@@ -26,9 +26,9 @@ function App() {
     disk: "",
   });
   const [thresholdVisibility, setThresholdVisibility] = useState({
-    cpu: true,
-    memory: true,
-    disk: true,
+    cpu: false,
+    memory: false,
+    disk: false,
   });
   const [history, setHistory] = useState([]);
   const [notification, setNotification] = useState(null);
