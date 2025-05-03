@@ -1,0 +1,159 @@
+/* src/App.css */
+
+.App {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.notification {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.notification.success {
+  background-color: #e6ffed;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+}
+.notification.error {
+  background-color: #fdecea;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  flex: 1;
+  padding: 1.2rem;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+}
+
+.stat-card.high {
+  background: #fdecea;
+  border: 2px solid #e74c3c;
+}
+
+.stat-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #34495e;
+}
+
+.stat-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #3498db;
+}
+
+.inline-alert {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #c0392b;
+  font-weight: 500;
+}
+
+.threshold-form {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #eef6fc;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+}
+
+.threshold-form h2 {
+  margin-top: 0;
+  color: #2980b9;
+}
+
+.threshold-form label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.threshold-form input {
+  margin-left: 1rem;
+  padding: 0.3rem 0.5rem;
+  width: 80px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.threshold-form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.threshold-form button:hover {
+  background-color: #2980b9;
+}
+
+.charts {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.refresh-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background-color: #27ae60;
+}
+
+.threshold-toggle {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 1rem 0;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.threshold-toggle label {
+  cursor: pointer;
+}
+
+.threshold-toggle input {
+  margin-right: 0.4rem;
+}
